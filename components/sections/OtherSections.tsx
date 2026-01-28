@@ -161,7 +161,7 @@ export default function HomeSections() {
             hover:bg-gray-100
           "
         >
-          Activer mon compte
+          Activer mon compte !
         </button>
       </div>
     </section>
