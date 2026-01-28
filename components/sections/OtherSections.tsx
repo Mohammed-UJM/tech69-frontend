@@ -13,7 +13,7 @@ export default function HomeSections() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="p-6 rounded-xl border border-gray-200 shadow hover:shadow-lg transition">
             <Image
-              src="/repair.png"
+              src="/icons/repair.png"
               alt="Réparation"
               width={64}
               height={64}
@@ -30,7 +30,7 @@ export default function HomeSections() {
 
           <div className="p-6 rounded-xl border border-gray-200 shadow hover:shadow-lg transition">
             <Image
-              src="/quality.png"
+              src="/icons/quality.png"
               alt="Produits garantis"
               width={64}
               height={64}
@@ -46,7 +46,7 @@ export default function HomeSections() {
 
           <div className="p-6 rounded-xl border border-gray-200 shadow hover:shadow-lg transition">
             <Image
-              src="/support.png"
+              src="/icons/support.png"
               alt="Support client"
               width={64}
               height={64}

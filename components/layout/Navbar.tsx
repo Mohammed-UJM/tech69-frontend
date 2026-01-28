@@ -7,47 +7,37 @@ function UserMenu() {
   const [open, setOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Fermer le modal quand on clique en dehors
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         setOpen(false);
       }
     };
-
     document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
   return (
     <div className="relative" ref={menuRef}>
-      {/* Icône user */}
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center justify-center w-10 h-10 ml-4 rounded-full hover:bg-gray-200 transition"
+        className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-gray-200 transition"
         aria-label="Compte utilisateur"
       >
         <Image
           src="/icons/user-black.png"
           alt="Utilisateur"
           width={40}
-          height={24}
+          height={40}
         />
       </button>
 
-      {/* Modal */}
       {open && (
         <div className="absolute right-0 mt-2 w-64 bg-white shadow-lg rounded-xl border border-gray-200 z-50">
           <div className="p-4">
-            {/* Phrase */}
             <p className="mb-4 text-gray-700 font-semibold">
               Connectez-vous ou créez votre compte Tech 69 !
             </p>
-
-            {/* Boutons */}
             <div className="flex flex-col gap-3">
               <a
                 href="/login"
@@ -71,14 +61,21 @@ function UserMenu() {
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 shadow-sm">
-      {/* Logo */}
-      <div className="flex items-center">
-        <Image src="/logo.png" alt="Logo" width={200} height={40} priority />
+    <nav className="flex items-center justify-between px-4 sm:px-8 py-3 shadow-sm bg-white">
+      {/* Logo responsive */}
+      <div className="flex-shrink-0">
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={150} // taille par défaut desktop
+          height={30}
+          className="sm:w-[150px] w-[120px] h-auto" // réduit sur mobile
+          priority
+        />
       </div>
 
       {/* CTA + User Menu */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3 sm:gap-4">
         <button
           onClick={() => {
             const contactSection = document.getElementById("contact");
@@ -86,7 +83,7 @@ export default function Navbar() {
               contactSection.scrollIntoView({ behavior: "smooth" });
             }
           }}
-          className="bg-primary text-white text-lg px-5 py-2 rounded-lg font-semibold"
+          className="bg-primary text-white hover:bg-primary/90 text-sm sm:text-base px-3 sm:px-5 py-1.5 sm:py-2 rounded font-semibold"
         >
           Contacter nous
         </button>
