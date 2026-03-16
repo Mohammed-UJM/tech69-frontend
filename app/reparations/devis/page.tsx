@@ -1,5 +1,10 @@
+import { Suspense } from "react";
 import DevisClient from "./DevisClient";
 
 export default function DevisPage() {
-  return <DevisClient />;
+  return (
+    <Suspense fallback={<div>Chargement ...</div>}>
+      <DevisClient />
+    </Suspense>
+  );
 }

@@ -5,7 +5,7 @@ import { devices } from "@/app/data/data";
 import Image from "next/image";
 import Contact from "@/components/sections/Contact";
 
-export default function DevisPage() {
+export default function DevisClient() {
   const params = useSearchParams();
 
   const deviceType = params.get("device");
