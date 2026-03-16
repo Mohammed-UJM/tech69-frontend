@@ -84,7 +84,7 @@ export default function ReparationPage() {
         ?
       </h1>
 
-      {/* PANNES */}
+      {/* PANNES  */}
 
       <h2 className="text-2xl font-bold mb-6">Vos pannes</h2>
 
