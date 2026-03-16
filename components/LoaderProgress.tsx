@@ -3,21 +3,14 @@
 import { useState, useEffect } from "react";
 
 type LoaderProgressProps = {
-  duration?: number; // durée en ms
-  text?: string;
+  duration?: number; // durée totale en ms
+  messages: string[]; // messages dynamiques passés en props
   onComplete?: () => void;
 };
 
-const messages = [
-  "Analyse de votre appareil...",
-  "Identification des réparations...",
-  "Calcul du coût des pièces...",
-  "Application des remises...",
-  "Préparation de votre devis...",
-];
-
 export default function LoaderProgress({
   duration = 1800,
+  messages,
   onComplete,
 }: Readonly<LoaderProgressProps>) {
   const [progress, setProgress] = useState(0);
@@ -26,6 +19,7 @@ export default function LoaderProgress({
   const radius = 56;
   const circumference = 2 * Math.PI * radius;
 
+  // Progression du cercle
   useEffect(() => {
     const stepTime = duration / 100;
 
@@ -42,14 +36,20 @@ export default function LoaderProgress({
     return () => clearInterval(interval);
   }, [duration]);
 
+  // Messages dynamiques avec durée égale
   useEffect(() => {
+    if (!messages || messages.length === 0) return;
+
+    const stepDuration = duration / messages.length;
+
     const messageInterval = setInterval(() => {
       setMessageIndex((prev) => (prev < messages.length - 1 ? prev + 1 : prev));
-    }, 400);
+    }, stepDuration);
 
     return () => clearInterval(messageInterval);
-  }, []);
+  }, [duration, messages]);
 
+  // Appel onComplete à la fin
   useEffect(() => {
     if (progress === 100 && onComplete) {
       const timeout = setTimeout(() => {
