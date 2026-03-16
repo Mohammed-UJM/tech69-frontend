@@ -35,5 +35,20 @@ select option {
 select option:hover,
 select option:checked {
   background-color: #ff6427 !important;
-  color: white !important;
+  color: #111 !important;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.5s forwards;
 }

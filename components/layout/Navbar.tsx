@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
+import { useScrollToContact } from "@/utils/scrollTo";
 
 function UserMenu() {
   const [open, setOpen] = useState(false);
@@ -60,34 +62,36 @@ function UserMenu() {
 }
 
 export default function Navbar() {
+  const router = useRouter();
+  const scrollToContact = useScrollToContact();
+
+  const goToHome = () => {
+    router.push("/");
+  };
+
   return (
     <nav className="flex items-center justify-between px-4 sm:px-8 py-3 shadow-sm bg-white">
       {/* Logo responsive */}
-      <div className="flex-shrink-0">
+      <button onClick={goToHome} className="flex-shrink-0">
         <Image
           src="/logo.png"
           alt="Logo"
           width={150} // taille par défaut desktop
           height={30}
-          className="sm:w-[150px] w-[120px] h-auto" // réduit sur mobile
+          className="sm:w-[150px] w-[120px] h-auto hover:scale-105 transition-transform" // réduit sur mobile
           priority
         />
-      </div>
+      </button>
 
       {/* CTA + User Menu */}
       <div className="flex items-center gap-3 sm:gap-4">
         <button
-          onClick={() => {
-            const contactSection = document.getElementById("contact");
-            if (contactSection) {
-              contactSection.scrollIntoView({ behavior: "smooth" });
-            }
-          }}
+          onClick={scrollToContact}
           className="bg-primary text-white hover:bg-primary/90 text-sm sm:text-base px-3 sm:px-5 py-1.5 sm:py-2 rounded font-semibold"
         >
           Contacter nous
         </button>
-        <UserMenu />
+        {/* <UserMenu /> */}
       </div>
     </nav>
   );
