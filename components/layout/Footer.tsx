@@ -7,7 +7,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo */}
         <div>
-          <Image src="/logo.png" alt="Logo" width={200} height={40} priority />
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={400}
+            height={40}
+            className="w-40 h-auto"
+          />
           <p className="mt-4 text-gray-400">
             Réparation et vente d’appareils électroniques en toute confiance.
           </p>

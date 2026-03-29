@@ -23,12 +23,10 @@ export default function ContactSection() {
               <p className="mb-4 text-black font-bold">✉️ contact@tech69.fr</p>
             </div>
 
-            <p className="font-semibold mb-2 mt-4 text-secondary font-bold">
-              Horaires :
-            </p>
+            <p className="mb-2 mt-4 text-secondary font-bold">Horaires :</p>
             <p className="text-gray-600 font-bold">
-              Lun–Ven : 10h – 19h <br />
-              Samedi : 10h – 18h
+              Lun–Ven : 09h – 19h <br />
+              Samedi : 10h – 19h
             </p>
 
             <div className="flex flex-wrap gap-4 mt-6">

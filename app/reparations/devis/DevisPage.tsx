@@ -4,7 +4,7 @@ import { useSearchParams } from "next/navigation";
 import { devices } from "@/app/data/data";
 import Image from "next/image";
 import Contact from "@/components/sections/Contact";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import LoaderProgress from "@/components/LoaderProgress";
 
 export default function DevisPage() {
@@ -22,8 +22,6 @@ export default function DevisPage() {
   const selectedRepairIds = repairsParam?.split(",") ?? [];
   const selectedServiceIds = servicesParam?.split(",") ?? [];
 
-  // 🔎 retrouver le modèle dans data.ts
-
   const device = devices.find((d) => d.type === deviceType);
 
   const brandData = device?.brands.find((b) => b.name === brand);
@@ -33,7 +31,7 @@ export default function DevisPage() {
   const repairs = model?.repairs ?? [];
   const services = model?.services ?? [];
 
-  // récupérer uniquement les éléments sélectionnés
+  // récupérer uniquement les éléments sélectionnés dans les choix de réparations et services
 
   const selectedRepairs = repairs.filter((r) =>
     selectedRepairIds.includes(r.id),
@@ -58,6 +56,14 @@ export default function DevisPage() {
   const bonus = subtotalRepairs * 0.1;
 
   const total = subtotal - bonus;
+
+  useEffect(() => {
+    if (!loading) {
+      globalThis.gtag?.("event", "conversion", {
+        send_to: "AW-17909751880/5nd-CP25r_YbEMjAhNxC",
+      });
+    }
+  }, [loading]);
 
   if (loading) {
     return (
