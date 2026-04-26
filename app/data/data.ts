@@ -3574,9 +3574,1457 @@ export const devices: DeviceType[] = [
           },
         ],
       },
+      {
+        name: "Samsung Game Z",
+
+        models: [
+          {
+            name: "Z Fold 7",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 199,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 849,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Fold 6",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 199,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 849,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Fold 5",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 179,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 799,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Fold 4",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 179,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 749,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Fold 3",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 179,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 499,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Fold 2",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 179,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 329,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Fold",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 179,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 599,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip 7 FE",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 399,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 129,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip 7",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 299,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 129,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip 6",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 389,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 119,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip 5",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 499,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 119,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip 4",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 449,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 119,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip 3",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 419,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 119,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Z Flip",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 349,
+              },
+              {
+                id: "back",
+                name: "Façade arrière haute",
+                icon: "/icons/back.png",
+                price: 99,
+              },
+              {
+                id: "back",
+                name: "Façade arrière basse",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 79,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 79,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 79,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+              // { id: "other", name: "Autres pannes", icon: "/icons/other.png", price: 79.9 }
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+        ],
+      },
 
       {
-        name: "Samsung",
+        name: "Samsung Game S",
 
         models: [
           {
@@ -4205,6 +5653,7850 @@ export const devices: DeviceType[] = [
                 name: "Haut parleur",
                 icon: "/icons/speaker.png",
                 price: 49,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S24 FE",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 89,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 69,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 59,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S24 Ultra",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 279,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 59,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 59,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 59,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S24 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 69,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 59,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S24",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 179,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 69,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 59,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S23 FE",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 79,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S23 Ultra",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 259,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S23 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S23",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 149,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S22 Ultra",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 229,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S22 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S22",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 159,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S21 FE",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 79,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S21 Ultra",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S21 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S21",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S20 FE",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S20 Ultra",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S20 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S20 FE",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S20",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S10 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S10 E",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S10 Lite",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 169,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S10 5G",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 219,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 49,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 49,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 69,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S10",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S9 Plus",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "S9",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 99,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Samsung Game A",
+
+        models: [
+          {
+            name: "Galaxy A80",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 89,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              // { id: "main-camera", name: "Appareil photo arrière", icon: "/icons/main-camera.png", price: 79 },
+              // { id: "front-camera", name: "Appareil photo avant", icon: "/icons/front-camera.png", price: 79 },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 59,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 39,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A72",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 79,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A71",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A70",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A57",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 69,
+              },
+              // { id: "back", name: "Façade arrière", icon: "/icons/back.png", price: 39 },
+              // { id: "speaker", name: "Haut parleur", icon: "/icons/speaker.png", price: 29 },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A56",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A55",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A54",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A53",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A52s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A52",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A51 5G",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A51",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A50s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              // { id: "main-camera", name: "Appareil photo arrière", icon: "/icons/main-camera.png", price: 39 },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              // { id: "connector", name: "Connecteur de charge", icon: "/icons/connector.png", price: 49 },
+              // { id: "back", name: "Façade arrière", icon: "/icons/back.png", price: 49 },
+              // { id: "speaker", name: "Haut parleur", icon: "/icons/speaker.png", price: 29 },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A50",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 119,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A42",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A41",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 79,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A40",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A37",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 129,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A36",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A35",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A34",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 79,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A33",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A32",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A31",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 49,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A30s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 49,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 49,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A30",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A26 5G",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A25 5G",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A24 5G",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 69,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A23",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A22",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A21s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A20e",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A20",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 59,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A17",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A16",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A15",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A14",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A13",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A12",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 49,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A11",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A10s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A10",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A07",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A06",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A05s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A05",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A04, A04s, A04en A04 Core",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A03, A03s, A03e",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A02, A02s",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A01, A01 Core",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
+              },
+              {
+                id: "sim",
+                name: "Tiroir carte SIM",
+                icon: "/icons/sim.png",
+                price: 10,
+              },
+            ],
+
+            services: [
+              {
+                id: "backup",
+                name: "Sauvegarde données",
+                icon: "/icons/backup.png",
+                price: 20,
+              },
+              {
+                id: "transfer",
+                name: "Transfert de données",
+                icon: "/icons/transfer.png",
+                price: 20,
+              },
+              {
+                id: "clean",
+                name: "Nettoyage complet",
+                icon: "/icons/clean.png",
+                price: 20,
+              },
+              {
+                id: "settings",
+                name: "Paramètrage appareil",
+                icon: "/icons/settings.png",
+                price: 20,
+              },
+              {
+                id: "cloud",
+                name: "Sauvegarde cloud",
+                icon: "/icons/cloud.png",
+                price: 20,
+              },
+              {
+                id: "update",
+                name: "Mise à jour système",
+                icon: "/icons/update.png",
+                price: 20,
+              },
+              {
+                id: "reset",
+                name: "Réinitialisation",
+                icon: "/icons/reset.png",
+                price: 20,
+              },
+            ],
+          },
+          {
+            name: "Galaxy A11",
+
+            repairs: [
+              {
+                id: "screen",
+                name: "Façade avant",
+                icon: "/icons/screen.png",
+                price: 39,
+              },
+              {
+                id: "battery",
+                name: "Batterie",
+                icon: "/icons/battery.png",
+                price: 39,
+              },
+              {
+                id: "main-camera",
+                name: "Appareil photo arrière",
+                icon: "/icons/main-camera.png",
+                price: 39,
+              },
+              {
+                id: "front-camera",
+                name: "Appareil photo avant",
+                icon: "/icons/front-camera.png",
+                price: 39,
+              },
+              {
+                id: "connector",
+                name: "Connecteur de charge",
+                icon: "/icons/connector.png",
+                price: 39,
+              },
+              {
+                id: "back",
+                name: "Façade arrière",
+                icon: "/icons/back.png",
+                price: 39,
+              },
+              {
+                id: "speaker",
+                name: "Haut parleur",
+                icon: "/icons/speaker.png",
+                price: 29,
               },
               {
                 id: "sim",
