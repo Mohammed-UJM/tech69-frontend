@@ -89,7 +89,7 @@ export default function SelectCustom({
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 placeholder="Rechercher..."
-                className="w-full px-3 py-1 rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-primary"
+                className="text-black placeholder-gray-400 w-full px-3 py-1 rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
           )}

@@ -35,7 +35,10 @@ export default function RepairSearchForm() {
   };
 
   return (
-    <div className="bg-white shadow-lg rounded p-4 max-w-7xl mx-auto -mt-10 relative z-10 border border-gray-100">
+    <div
+      id="repair-form"
+      className="bg-white shadow-lg rounded p-4 max-w-7xl mx-auto -mt-10 relative z-10 border border-gray-100"
+    >
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
         {/* APPAREIL */}
 

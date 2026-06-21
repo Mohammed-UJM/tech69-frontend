@@ -24,7 +24,7 @@ export default function HomeSections() {
             </h3>
             <p className="text-gray-600">
               Smartphones, tablettes et ordinateurs, réparés rapidement par nos
-              experts.
+              techniciens.
             </p>
           </div>
 
@@ -103,51 +103,52 @@ export default function HomeSections() {
         <div className="mt-20 flex justify-center py-2">
           <button
             onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" });
+              window.scrollTo({ top: 0 });
             }}
             className="
-    bg-primary
-    hover:bg-primary/90
-    text-white
-    font-semibold
-    py-2
-    px-10
-    text-lg
-    rounded
-    transition
-    disabled:opacity-50
-    disabled:cursor-not-allowed
-  "
+              bg-primary
+              hover:bg-primary/90
+              text-white
+              font-semibold
+              py-2
+              px-10
+              text-lg
+              rounded
+              transition
+              disabled:opacity-50
+              disabled:cursor-not-allowed
+            "
           >
             Réparer mon appareil
           </button>
         </div>
       </div>
       <div className="h-20" />
-      <div className="w-full bg-primary mx-auto px-4 py-10 text-center text-white">
-        {/* Icône */}
-        <div className="mb-6">
-          <Image
-            src="/icons/user.png"
-            alt="Utilisateur"
-            width={60}
-            height={60}
-            className="mx-auto"
-          />
-        </div>
+      {false && (
+        <div className="w-full bg-primary mx-auto px-4 py-10 text-center text-white">
+          {/* Icône */}
+          <div className="mb-6">
+            <Image
+              src="/icons/user.png"
+              alt="Utilisateur"
+              width={60}
+              height={60}
+              className="mx-auto"
+            />
+          </div>
 
-        {/* Titre */}
-        <h2 className="text-3xl font-bold mb-4">Créez votre compte client</h2>
+          {/* Titre */}
+          <h2 className="text-3xl font-bold mb-4">Créez votre compte client</h2>
 
-        {/* Phrase explicative */}
-        <p className="mb-8">
-          Inscrivez-vous en quelques clics pour simplifier le suivi de vos
-          réparations et gagner du temps à chaque visite.
-        </p>
+          {/* Phrase explicative */}
+          <p className="mb-8">
+            Inscrivez-vous en quelques clics pour simplifier le suivi de vos
+            réparations et gagner du temps à chaque visite.
+          </p>
 
-        {/* Bouton */}
-        <button
-          className="
+          {/* Bouton */}
+          <button
+            className="
             bg-white
             text-primary
             font-semibold
@@ -160,10 +161,11 @@ export default function HomeSections() {
             hover:scale-105
             hover:bg-gray-100
           "
-        >
-          Activer mon compte !
-        </button>
-      </div>
+          >
+            Activer mon compte !
+          </button>
+        </div>
+      )}
     </section>
   );
 }

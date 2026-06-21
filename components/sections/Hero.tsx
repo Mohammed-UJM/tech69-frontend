@@ -22,8 +22,7 @@ export default function Hero() {
           Réparation rapide de vos appareils
         </h1>
         <p className="text-white text-lg max-w-2xl mx-auto mb-8">
-          Smartphones, tablettes et ordinateurs réparés par des experts
-          certifiés
+          Smartphones, tablettes et ordinateurs
         </p>
       </div>
     </section>

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import { useScrollToContact } from "@/utils/scrollTo";
+import { useScrollToContact } from "@/utils/scrollToContact";
 
 function UserMenu() {
   const [open, setOpen] = useState(false);
@@ -15,6 +15,7 @@ function UserMenu() {
         setOpen(false);
       }
     };
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
@@ -40,6 +41,7 @@ function UserMenu() {
             <p className="mb-4 text-gray-700 font-semibold">
               Connectez-vous ou créez votre compte Tech 69 !
             </p>
+
             <div className="flex flex-col gap-3">
               <a
                 href="/login"
@@ -47,6 +49,7 @@ function UserMenu() {
               >
                 Se connecter
               </a>
+
               <a
                 href="/register"
                 className="w-full text-center border border-primary text-primary py-2 rounded font-semibold hover:bg-primary hover:text-white transition"
@@ -67,32 +70,44 @@ export default function Navbar() {
 
   const goToHome = () => {
     router.push("/");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
-    <nav className="flex items-center justify-between px-4 sm:px-8 py-3 shadow-sm bg-white">
-      {/* Logo responsive */}
-      <button onClick={goToHome} className="flex-shrink-0">
-        <Image
-          src="/logo.png"
-          alt="Logo"
-          width={150} // taille par défaut desktop
-          height={30}
-          className="sm:w-[150px] w-[120px] h-auto hover:scale-105 transition-transform" // réduit sur mobile
-          priority
-        />
-      </button>
+    <>
+      {/* Spacer pour éviter que le contenu passe sous la navbar */}
+      <div className="h-[64px]" />
 
-      {/* CTA + User Menu */}
-      <div className="flex items-center gap-3 sm:gap-4">
-        <button
-          onClick={scrollToContact}
-          className="bg-primary text-white hover:bg-primary/90 text-sm sm:text-base px-3 sm:px-5 py-1.5 sm:py-2 rounded font-semibold"
-        >
-          Contacter nous
+      <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-sm flex items-center justify-between px-4 sm:px-8 py-3">
+        {/* Logo */}
+        <button onClick={goToHome} className="flex-shrink-0">
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={150}
+            height={30}
+            className="sm:w-[150px] w-[120px] h-auto hover:scale-105 transition-transform"
+            priority
+          />
         </button>
-        {/* <UserMenu /> */}
-      </div>
-    </nav>
+
+        {/* CTA */}
+        <div className="flex items-center gap-3 sm:gap-4">
+          <button
+            onClick={async () => {
+              await router.push("/");
+              setTimeout(() => {
+                scrollToContact();
+              }, 100);
+            }}
+            className="bg-primary text-white hover:bg-primary/90 text-sm sm:text-base px-3 sm:px-5 py-1.5 sm:py-2 rounded font-semibold"
+          >
+            Contacter nous
+          </button>
+
+          {/* <UserMenu /> */}
+        </div>
+      </nav>
+    </>
   );
 }

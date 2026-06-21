@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import Script from "next/script";
+import ScrollToTop from "@/utils/ScrollToTop";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -57,7 +58,10 @@ export default function RootLayout({
         className={`${montserrat.variable} ${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">
+          <ScrollToTop />
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
