@@ -61,7 +61,7 @@ export default function ProductDetailsPage() {
               alt={product.name}
               width={500}
               height={500}
-              className="w-full h-[350px] object-contain"
+              className="mx-auto object-cover rounded-lg"
             />
           </div>
 
@@ -71,7 +71,7 @@ export default function ProductDetailsPage() {
               <button
                 key={img}
                 onClick={() => setActiveImage(index)}
-                className={`border rounded p-2 bg-white ${
+                className={`border rounded-lg mx-1 bg-white ${
                   activeImage === index ? "border-primary" : "border-gray-200"
                 }`}
               >
@@ -80,7 +80,7 @@ export default function ProductDetailsPage() {
                   alt=""
                   width={70}
                   height={70}
-                  className="object-contain w-[70px] h-[70px]"
+                  className="mx-auto object-cover rounded-lg"
                 />
               </button>
             ))}

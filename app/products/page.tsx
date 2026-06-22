@@ -179,7 +179,7 @@ export default function ProductsPage() {
                   border-gray-200
                   rounded-xl
                   shadow
-                  p-4
+                  p-5
                   text-center
                   hover:shadow-md
                   transition
@@ -190,7 +190,7 @@ export default function ProductsPage() {
                   alt={product.name}
                   width={160}
                   height={160}
-                  className="h-40 mx-auto mb-4 object-contain"
+                  className="mx-auto object-cover rounded-lg mb-4"
                 />
 
                 <h3 className="font-semibold text-black text-lg">
