@@ -80,7 +80,7 @@ export default function HomeSections() {
           </div>
         </div>
 
-        {/* Avis clients */}
+        {/* Avis clients
         <h2 className="text-3xl font-bold text-secondary mt-20 mb-12">
           Avis de nos clients
         </h2>
@@ -97,7 +97,7 @@ export default function HomeSections() {
             <p className="text-gray-600 italic">{`"Professionnels, rapide et très sympa !"`}</p>
             <p className="font-semibold text-secondary mt-4">– Karim B.</p>
           </div>
-        </div>
+        </div> */}
 
         {/* CTA final */}
         <div className="mt-20 flex justify-center py-2">
