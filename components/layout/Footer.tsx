@@ -78,8 +78,11 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/waranty" className="hover:text-primary">
-                Garantie
+              <Link
+                href="/politique-de-confidentialite"
+                className="hover:text-primary"
+              >
+                Politique de Confidentialité
               </Link>
             </li>
             <li>

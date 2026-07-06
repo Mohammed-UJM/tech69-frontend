@@ -45,9 +45,7 @@ export default function ProductDetailsPage() {
       {/* HERO */}
       <section className="bg-gray-900 text-white py-12 text-center">
         <h1 className="text-3xl md:text-4xl font-bold my-5">{product.name}</h1>
-        <p className="opacity-90 my-5">
-          Produit reconditionné garanti et testé
-        </p>
+        {product.remark && <p className="opacity-90 my-5">{product.remark}</p>}
       </section>
 
       {/* CONTENT */}
@@ -96,7 +94,9 @@ export default function ProductDetailsPage() {
               {product.price.toFixed(2)} €
             </p>
 
-            <p className="text-gray-600 mt-3">{product.description}</p>
+            {product.description && (
+              <p className="text-gray-600 mt-3">{product.description}</p>
+            )}
           </div>
 
           {/* SPECS */}
@@ -104,15 +104,29 @@ export default function ProductDetailsPage() {
             <h3 className="font-semibold text-lg text-black">
               Caractéristiques
             </h3>
+            {product.brand && <p>🏷️ Marque : {product.brand}</p>}
+            {product.model && <p>📦 Modèle : {product.model}</p>}
+            {product.storage && <p>💾 Stockage : {product.storage}</p>}
+            {product.ram && <p>⚡ RAM : {product.ram}</p>}
+            {product.year && <p>📅 Année : {product.year}</p>}
+            {Array.isArray(product.colors) && product.colors.length > 0 && (
+              <p>🎨 Couleurs : {product.colors.join(", ")}</p>
+            )}
+            {product.condition && <p>🧾 État : {product.condition}</p>}
 
-            <p>📱 Type : {product.type}</p>
-            <p>🏷️ Marque : {product.brand}</p>
-            <p>📦 Modèle : {product.model}</p>
-            <p>💾 Stockage : {product.storage}</p>
-            <p>⚡ RAM : {product.ram}</p>
-            <p>📅 Année : {product.year}</p>
-            <p>🎨 Couleurs : {product.colors?.join(", ")}</p>
-            <p>🧾 État : {product.condition}</p>
+            {!product.type &&
+              !product.brand &&
+              !product.model &&
+              !product.storage &&
+              !product.ram &&
+              !product.year &&
+              (!product.colors || product.colors.length === 0) &&
+              !product.condition && (
+                <p className="text-gray-500 italic mt-3">
+                  Aucune caractéristique disponible pour ce produit. Veuillez
+                  nous contacter pour plus d’informations.
+                </p>
+              )}
           </div>
 
           {/* CTA */}
@@ -128,7 +142,7 @@ export default function ProductDetailsPage() {
               onClick={() => goToSection("contact")}
               className="bg-primary text-white px-6 py-3 rounded font-semibold hover:bg-primary/90 transition"
             >
-              Interessé ? Contacter nous !
+              Intéressé ? Contactez-nous !
             </button>
           </div>
         </div>
