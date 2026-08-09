@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import SelectCustom from "@/components/SelectCustom";
 import { devices } from "@/app/data/data";
 
-type DeviceType = "smartphone" | "tablette" | "ordinateur";
+type DeviceType = "Smartphone" | "Tablette" | "Ordinateur" | "Console de jeu";
 
 export default function RepairSearchForm() {
   const router = useRouter();
@@ -82,6 +82,7 @@ export default function RepairSearchForm() {
         {/* BOUTON */}
 
         <button
+          type="button"
           onClick={handleSubmit}
           disabled={!canSubmit}
           className="
