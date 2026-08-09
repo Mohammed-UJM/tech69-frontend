@@ -193,17 +193,31 @@ export default function ProductsPage() {
                   className="mx-auto object-cover rounded-lg mb-4"
                 />
 
-                <h3 className="font-semibold text-black text-lg">
-                  {product.name}
-                </h3>
+                {product.name && (
+                  <h3 className="font-semibold text-black text-lg">
+                    {product.name}
+                  </h3>
+                )}
 
-                <p className="text-primary font-bold text-2xl">
-                  {product.price.toFixed(2)} €
-                </p>
+                {!!product.price && (
+                  <p className="text-primary font-bold text-2xl">
+                    {product.price.toFixed(2)} €
+                  </p>
+                )}
 
-                <p className="text-sm text-gray-600">{product.storage}</p>
-                <p className="text-sm text-gray-600">RAM : {product.ram}</p>
-                <p className="text-sm text-gray-600">{product.condition}</p>
+                {product.storage && (
+                  <p className="text-sm text-gray-600">
+                    Stockage : {product.storage}
+                  </p>
+                )}
+
+                {product.ram && (
+                  <p className="text-sm text-gray-600">RAM : {product.ram}</p>
+                )}
+
+                {product.condition && (
+                  <p className="text-sm text-gray-600">{product.condition}</p>
+                )}
               </Link>
             );
           })}

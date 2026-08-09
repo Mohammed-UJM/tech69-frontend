@@ -88,34 +88,43 @@ export default function ReparationPage() {
 
       <h2 className="text-2xl font-bold mb-6">Vos pannes</h2>
 
-      {selectedRepairs.length > 0 && (
+      {repairs.length === 0 ? (
         <p className="text-gray-500 mb-8">
-          {selectedRepairs.length} panne
-          {selectedRepairs.length > 1 ? "s" : ""} sélectionnée
-          {selectedRepairs.length > 1 ? "s" : ""}
+          Pour le moment il n’y a aucune panne que nous réparons pour ce modèle
+          d’appareil.
         </p>
+      ) : (
+        <>
+          {selectedRepairs.length > 0 && (
+            <p className="text-gray-500 mb-8">
+              {selectedRepairs.length} panne
+              {selectedRepairs.length > 1 ? "s" : ""} sélectionnée
+              {selectedRepairs.length > 1 ? "s" : ""}
+            </p>
+          )}
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+            {visibleRepairs.map((repair) => (
+              <SelectableCard
+                key={repair.id}
+                title={repair.name}
+                icon={repair.icon}
+                selected={selectedRepairs.includes(repair.id)}
+                onClick={() => toggleRepair(repair.id)}
+              />
+            ))}
+
+            {repairs.length > 3 && (
+              <SelectableCard
+                title={showAllRepairs ? "Voir moins" : "Voir plus"}
+                icon={showAllRepairs ? "/icons/moins.png" : "/icons/plus.png"}
+                selected={false}
+                onClick={() => setShowAllRepairs(!showAllRepairs)}
+              />
+            )}
+          </div>
+        </>
       )}
-
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-        {visibleRepairs.map((repair) => (
-          <SelectableCard
-            key={repair.id}
-            title={repair.name}
-            icon={repair.icon}
-            selected={selectedRepairs.includes(repair.id)}
-            onClick={() => toggleRepair(repair.id)}
-          />
-        ))}
-
-        {repairs.length > 3 && (
-          <SelectableCard
-            title={showAllRepairs ? "Voir moins" : "Voir plus"}
-            icon={showAllRepairs ? "/icons/moins.png" : "/icons/plus.png"}
-            selected={false}
-            onClick={() => setShowAllRepairs(!showAllRepairs)}
-          />
-        )}
-      </div>
 
       <br />
 
@@ -123,37 +132,47 @@ export default function ReparationPage() {
 
       <h2 className="text-2xl font-bold mb-6">Nos services</h2>
 
-      {selectedServices.length > 0 && (
+      {services.length === 0 ? (
         <p className="text-gray-500 mb-8">
-          {selectedServices.length} service
-          {selectedServices.length > 1 ? "s" : ""} sélectionné
-          {selectedServices.length > 1 ? "s" : ""}
+          Nous ne proposons pour le moment aucun service pour ce modèle
+          d’appareil.
         </p>
+      ) : (
+        <>
+          {selectedServices.length > 0 && (
+            <p className="text-gray-500 mb-8">
+              {selectedServices.length} service
+              {selectedServices.length > 1 ? "s" : ""} sélectionné
+              {selectedServices.length > 1 ? "s" : ""}
+            </p>
+          )}
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {visibleServices.map((service) => (
+              <SelectableCard
+                key={service.id}
+                title={service.name}
+                icon={service.icon}
+                selected={selectedServices.includes(service.id)}
+                onClick={() => toggleService(service.id)}
+              />
+            ))}
+
+            {services.length > 3 && (
+              <SelectableCard
+                title={showAllServices ? "Voir moins" : "Voir plus"}
+                icon={showAllServices ? "/icons/moins.png" : "/icons/plus.png"}
+                selected={false}
+                onClick={() => setShowAllServices(!showAllServices)}
+              />
+            )}
+          </div>
+        </>
       )}
-
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {visibleServices.map((service) => (
-          <SelectableCard
-            key={service.id}
-            title={service.name}
-            icon={service.icon}
-            selected={selectedServices.includes(service.id)}
-            onClick={() => toggleService(service.id)}
-          />
-        ))}
-
-        {services.length > 3 && (
-          <SelectableCard
-            title={showAllServices ? "Voir moins" : "Voir plus"}
-            icon={showAllServices ? "/icons/moins.png" : "/icons/plus.png"}
-            selected={false}
-            onClick={() => setShowAllServices(!showAllServices)}
-          />
-        )}
-      </div>
 
       {(selectedRepairs.length > 0 || selectedServices.length > 0) && (
         <button
+          type="button"
           onClick={goToDevis}
           className="
             mt-16

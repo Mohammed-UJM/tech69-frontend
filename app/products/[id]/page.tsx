@@ -1,11 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 
 import { products } from "@/app/data/products_data";
-import { getProductImages } from "@/utils/productImages";
 import { useGoToSection } from "@/utils/useGoToSection";
 
 export default function ProductDetailsPage() {
@@ -19,18 +18,38 @@ export default function ProductDetailsPage() {
     return products.find((p) => p.id === id);
   }, [id]);
 
-  const images = useMemo(() => {
-    if (!product) return [];
-    return getProductImages(product.id, 6);
-  }, [product]);
-
+  const [images, setImages] = useState<string[]>([]);
   const [activeImage, setActiveImage] = useState(0);
+
+  useEffect(() => {
+    if (!product) return;
+
+    const loadImages = async () => {
+      try {
+        const response = await fetch(`/api/products/${product.id}/images`);
+
+        if (!response.ok) {
+          throw new Error("Impossible de récupérer les images");
+        }
+
+        const data: string[] = await response.json();
+
+        setImages(data);
+      } catch (error) {
+        console.error("Erreur lors du chargement des images :", error);
+        setImages([]);
+      }
+    };
+
+    loadImages();
+  }, [product]);
 
   if (!product) {
     return (
       <main className="p-10 text-center">
         <h1 className="text-2xl font-bold">Produit introuvable</h1>
         <button
+          type="button"
           onClick={() => router.push("/produits")}
           className="mt-4 text-primary font-semibold"
         >
@@ -52,37 +71,50 @@ export default function ProductDetailsPage() {
       <section className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-10">
         {/* IMAGE GALLERY */}
         <div>
-          {/* MAIN IMAGE */}
-          <div className="bg-white rounded-xl shadow p-4">
-            <Image
-              src={images[activeImage] || images[0]}
-              alt={product.name}
-              width={500}
-              height={500}
-              className="mx-auto object-cover rounded-lg"
-            />
-          </div>
-
-          {/* THUMBNAILS */}
-          <div className="flex gap-3 mt-4 overflow-x-auto">
-            {images.map((img, index) => (
-              <button
-                key={img}
-                onClick={() => setActiveImage(index)}
-                className={`border rounded-lg mx-1 bg-white ${
-                  activeImage === index ? "border-primary" : "border-gray-200"
-                }`}
-              >
+          {images.length > 0 ? (
+            <>
+              {/* MAIN IMAGE */}
+              <div className="bg-white rounded-xl shadow p-4">
                 <Image
-                  src={img}
-                  alt=""
-                  width={70}
-                  height={70}
+                  src={images[activeImage]}
+                  alt={product.name}
+                  width={500}
+                  height={500}
                   className="mx-auto object-cover rounded-lg"
                 />
-              </button>
-            ))}
-          </div>
+              </div>
+
+              {/* THUMBNAILS */}
+              {images.length > 1 && (
+                <div className="flex gap-3 mt-4 overflow-x-auto">
+                  {images.map((img, index) => (
+                    <button
+                      type="button"
+                      key={img}
+                      onClick={() => setActiveImage(index)}
+                      className={`border rounded-lg mx-1 bg-white ${
+                        activeImage === index
+                          ? "border-primary"
+                          : "border-gray-200"
+                      }`}
+                    >
+                      <Image
+                        src={img}
+                        alt={`${product.name} - image ${index + 1}`}
+                        width={70}
+                        height={70}
+                        className="mx-auto object-cover rounded-lg"
+                      />
+                    </button>
+                  ))}
+                </div>
+              )}
+            </>
+          ) : (
+            <div className="bg-white rounded-xl shadow p-10 text-center text-gray-500">
+              Aucune image disponible pour ce produit.
+            </div>
+          )}
         </div>
 
         {/* INFO */}
@@ -132,6 +164,7 @@ export default function ProductDetailsPage() {
           {/* CTA */}
           <div className="flex gap-4">
             <button
+              type="button"
               onClick={() => router.back()}
               className="bg-primary text-white px-6 py-3 rounded font-semibold hover:bg-primary/90 transition"
             >
@@ -139,6 +172,7 @@ export default function ProductDetailsPage() {
             </button>
 
             <button
+              type="button"
               onClick={() => goToSection("contact")}
               className="bg-primary text-white px-6 py-3 rounded font-semibold hover:bg-primary/90 transition"
             >
