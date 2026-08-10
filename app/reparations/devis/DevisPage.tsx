@@ -6,7 +6,7 @@ import Image from "next/image";
 import Contact from "@/components/sections/Contact";
 import { useState, useEffect } from "react";
 import LoaderProgress from "@/components/LoaderProgress";
-import AppointmentBooking from "@/components/sections/AppointmentBooking";
+// import AppointmentBooking from "@/components/sections/AppointmentBooking";
 
 export default function DevisPage() {
   const params = useSearchParams();
