@@ -13903,19 +13903,19 @@ export const devices: DeviceType[] = [
                 id: "connector-hdmi",
                 name: "Connecteur HDMI",
                 icon: "/icons/connector.png",
-                price: 122.22,
+                price: 70,
               },
               {
                 id: "connector-usb",
                 name: "Connecteur USB",
                 icon: "/icons/connector.png",
-                price: 122.22,
+                price: 70,
               },
               {
                 id: "connector-usb-c",
                 name: "Connecteur USB-C",
                 icon: "/icons/connector.png",
-                price: 122.22,
+                price: 70,
               },
               {
                 id: "prise-jack",

@@ -6,6 +6,7 @@ import Image from "next/image";
 import Contact from "@/components/sections/Contact";
 import { useState, useEffect } from "react";
 import LoaderProgress from "@/components/LoaderProgress";
+import AppointmentBooking from "@/components/sections/AppointmentBooking";
 
 export default function DevisPage() {
   const params = useSearchParams();
@@ -180,6 +181,17 @@ export default function DevisPage() {
           lors de votre rendez-vous avec nos techniciens
         </p>
       </div>
+
+      {/* <AppointmentBooking
+        deviceType={deviceType}
+        brand={brand}
+        modelName={modelName}
+        selectedRepairs={selectedRepairs}
+        selectedServices={selectedServices}
+        subtotal={subtotal}
+        bonus={bonus}
+        total={total}
+      /> */}
 
       <Contact />
     </div>
